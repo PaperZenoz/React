@@ -1,23 +1,21 @@
 import React from 'react';
-import s from './Users.module.css';
 
-import User from './User/User'
+import Users from "./Users";
+import {connect} from 'react-redux'
 
 
-const Users = (props) => {
 
-    let UsersPar = props.UserArr.map(u => <User id={u.id} name={u.name}/>)
+let mapStateToProps = (state) => {
+    return {
+        UserArr: state.messagesPage.UserArr
+    }
 
-    return (
-        <div className={s.user}>
-            {UsersPar}
-        </div>
-
-    );
 }
 
 
-export default Users;
+const UsersContainer = connect(mapStateToProps)(Users);
+
+export default UsersContainer;
 
 
 

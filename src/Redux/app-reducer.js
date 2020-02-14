@@ -1,24 +1,20 @@
-import {authAPI} from "../api/api";
-import {stopSubmit} from "redux-form"
+import {getAuthUserData} from "./auth-reducer";
 
-const SET_USER_DATA = 'SET_USER_DATA';
+const INITIALIZED_SUCCESS = 'INITIALIZED_SUCCESS';
 
 
 let initialState = {
-    userId: null,
-    email: null,
-    login: null,
-    isAuth: false
+    initialized: false,
 }
 
 
-const authReducer = (state = initialState, action) => {
+const appReducer = (state = initialState, action) => {
 
     switch (action.type) {
-        case SET_USER_DATA:
+        case INITIALIZED_SUCCESS:
             return {
                 ...state,
-                ...action.payload,
+                initialized: true,
 
 
             }
@@ -33,49 +29,17 @@ const authReducer = (state = initialState, action) => {
 }
 
 
-export const setUserAuthData = (userId, email, login, isAuth) => (
-    {type: SET_USER_DATA, payload: {userId, email, login, isAuth}}
-)
+export const initializedSuccess = () => ({type: INITIALIZED_SUCCESS})
 
-export const getAuthUserData = () => (dispatch) => {
+export const initializeApp = () => (dispatch) => {
+    let promise = dispatch(getAuthUserData())
 
-    authAPI.me().then(response => {
+    promise.then(() => {
+        dispatch(initializedSuccess())
 
-        if (response.data.resultCode === 0) {
+    })
 
-
-            let {id, email, login} = response.data.data;
-            dispatch(setUserAuthData(id, email, login, true))
-        }
-
-    });
 }
 
-export const login = (email, password, rememberMe) => (dispatch) => {
-    authAPI.login(email, password, rememberMe).then(response => {
 
-        if (response.data.resultCode === 0) {
-            dispatch(getAuthUserData())
-        } else {
-
-            let message = response.data.messages.length > 0
-                ? response.data.messages[0]
-                : "Какая-то ошибка"
-
-            dispatch(stopSubmit("login", {_error: message}))
-        }
-
-    });
-}
-
-export const logout = () => (dispatch) => {
-    authAPI.logout().then(response => {
-
-        if (response.data.resultCode === 0) {
-            dispatch(setUserAuthData(null, null, null, false))
-        }
-
-    });
-}
-
-export default authReducer;
+export default appReducer;

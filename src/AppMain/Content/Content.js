@@ -1,14 +1,41 @@
 import React from 'react';
-import s from './Content.module.css';
+import {Route} from 'react-router-dom';
 
-const AddPost = () => {
+import s from './Content.module.css';
+import Music from './Music/Music';
+import News from './News/News';
+import Settings from './Settings/Settings';
+import HumansContainer from './Humans/HumansContainer';
+import Login from "./Login/Login";
+import {withSuspence} from "../../hoc/withSuspence";
+
+
+const Messages = React.lazy(() => import('./Messages/Messages'));
+const ProfileContainer = React.lazy(() => import('./Profile/ProfileContainer'));
+
+
+const Content = () => {
+
     return (
-       <AddPost/>
+        <div className={s.content}>
+            <div className={s.wrapper}>
+                <Route render={withSuspence(ProfileContainer)} path='/profile/:userId?'/>
+                <Route render={withSuspence(Messages)} path='/messages'/>
+                <Route render={() => <HumansContainer/>} path='/humans'/>
+                <Route render={() => <Music/>} path='/music'/>
+                <Route render={() => <News/>} path='/news'/>
+                <Route render={() => <Settings/>} path='/settings'/>
+                <Route render={() => <Login/>} path='/login'/>
+            </div>
+        </div>
     );
 }
 
-
 export default Content;
+
+
+
+
 
 
 

@@ -1,24 +1,23 @@
 import React from 'react';
-import s from './Content.module.css';
-import Profile from './Profile/Profile';
-import Messages from './Messages/Messages';
+import s from './Messages.module.css';
+
+import Dialog from './Dialog/Dialog';
+import UsersContainer from "./Users/UsersContainer";
 
 
+const Messages = () => {
 
-const Content = () => {
+
     return (
-        <div className={s.content}>
-            <div className={s.wrapper}>
-                <Profile />
-                <Messages />
-
-            </div>
+        <div className={s.wrapper}>
+            <UsersContainer/>
+            <Dialog/>
         </div>
     );
 }
 
 
-export default Content;
+export default Messages;
 
 
 

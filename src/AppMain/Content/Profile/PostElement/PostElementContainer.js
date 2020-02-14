@@ -1,21 +1,16 @@
 import React from 'react';
-import Post from './Post/Post';
-import s from './PostElement.module.css'
+import {connect} from 'react-redux'
+import PostElement from "./PostElement";
 
+let mapStateToProps = (state) => {
+    return {
+        PostArr: state.profilePage.PostArr
+    }
 
-const PostElement = (props) => {
-
-    let PostElement = props.PostArr.map(p => <Post text={p.text} name={p.name} like={p.like}/>);
-
-
-
-    return (
-        <div className={s.wrap}>
-            {PostElement}
-        </div>
-    );
 }
 
+const PostElementContainer = connect(mapStateToProps)(PostElement);
 
-export default PostElement;
+
+export default PostElementContainer;
 

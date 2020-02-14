@@ -1,79 +1,121 @@
-const UPDATE_NEW_MESSAGE_TEXT = 'UPDATE-NEW-MESSAGE-TEXT';
-const ADD_MESSAGE = 'ADD-MESSAGE';
+import {usersAPI} from "../api/api";
+import {updateObjectInArray} from "../utils/object-helpers";
+
+const FOLLOW = 'FOLLOW';
+const UNFOLLOW = 'UNFOLLOW';
+const SET_HUMANS = 'SET_HUMANS';
+const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE';
+const SET_TOTAL_USERS_COUNT = 'SET_TOTAL_USERS_COUNT'
+const TOGGLE_IS_FETCHING = 'TOGGLE_IS_FETCHING';
+const TOGGLE_IS_FOLLOWING_PROGRESS = 'TOGGLE_IS_FOLLOWING_PROGRESS';
+
 
 let initialState = {
-    UserArr: [
-        {
-            id: 1,
-            name: "Иванов Иван"
-        },
-        {
-            id: 2,
-            name: "Петр Петрович"
-        },
-        {
-            id: 3,
-            name: "Олег Юрьевич"
-        },
-        {
-            id: 4,
-            name: "Дядька Черномор"
-        },
-        {
-            id: 5,
-            name: "Василий Шустрый"
-        },
-        {
-            id: 6,
-            name: "Конь Буденый"
-        },
-    ],
-    DialogArr: [
-        {id: 1, message: "Это"}, {id: 2, message: "Какой-то"}, {id: 3, message: "Очень странный"}, {
-            id: 4,
-            message: "Диалог"
-        }, {id: 5, message: "Для теста"},
-    ],
-    newMessageText: "Samurai"
+    humans: [],
+    pageSize: 50,
+    totalUsersCount: 0,
+    currentPage: 1,
+    isFetching: true,
+    followingInProgress: [],
 }
 
 
-const messageReducer = (state = initialState, action) => {
+const humansReducer = (state = initialState, action) => {
+
 
     switch (action.type) {
-        case UPDATE_NEW_MESSAGE_TEXT: {
+        case FOLLOW:
             return {
                 ...state,
-                newMessageText: action.message
+                humans: updateObjectInArray(state.humans, action.id, "id", {followed: true})
             }
 
-        }
 
-        case ADD_MESSAGE: {
-            let body = state.newMessageText;
-
+        case UNFOLLOW:
             return {
                 ...state,
-                newMessageText: '',
-                DialogArr: [...state.DialogArr, {id: 6, message: body}]
+                humans: updateObjectInArray(state.humans, action.id, "id", {followed: false})
             }
 
-        }
+
+        case SET_HUMANS:
+            return {...state, humans: action.humans}
+
+        case SET_CURRENT_PAGE:
+            return {...state, currentPage: action.currentPage}
+
+        case SET_TOTAL_USERS_COUNT:
+            return {...state, totalUsersCount: action.count}
+
+        case TOGGLE_IS_FETCHING:
+            return {...state, isFetching: action.isFetching}
+
+        case TOGGLE_IS_FOLLOWING_PROGRESS:
+            return {
+                ...state,
+                followingInProgress: action.isFetching
+                    ? [...state.followingInProgress, action.userId]
+                    : state.followingInProgress.filter(id => id != action.userId)
+            }
+
 
         default:
-            return state
+            return state;
 
+    }
+
+
+}
+
+
+export const followSuccess = (id) => ({type: FOLLOW, id})
+export const unfollowSuccess = (id) => ({type: UNFOLLOW, id})
+export const requestHumans = (humans) => ({type: SET_HUMANS, humans})
+export const setTotalUsersCount = (totalUsersCount) => ({type: SET_TOTAL_USERS_COUNT, count: totalUsersCount})
+export const setCurrentPage = (currentPage) => ({type: SET_CURRENT_PAGE, currentPage})
+export const setIsFetching = (isFetching) => ({type: TOGGLE_IS_FETCHING, isFetching})
+export const toggleFollowingProgress = (isFetching, userId) => ({
+    type: TOGGLE_IS_FOLLOWING_PROGRESS,
+    isFetching,
+    userId
+})
+export const getHumans = (currentPage, pageSize) => {
+    return async (dispatch) => {
+        dispatch(setIsFetching(true));
+
+        let data = await usersAPI.getHumans(currentPage, pageSize)
+        dispatch(setIsFetching(false))
+        dispatch(setCurrentPage(currentPage))
+        dispatch(setTotalUsersCount(data.totalCount))
+        dispatch(requestHumans(data.items))
+    }
+
+}
+
+const followUnfollowFlow = async (dispatch, userId, apiMethod, actionCreator) => {
+
+    dispatch(toggleFollowingProgress(true, userId))
+
+    let response = await apiMethod(userId)
+    if (response.data.resultCode == 0) {
+        dispatch(actionCreator(userId))
+    }
+    dispatch(toggleFollowingProgress(false, userId))
+
+}
+
+
+export const follow = (userId) => {
+    return async (dispatch) => {
+        followUnfollowFlow(dispatch, userId, usersAPI.follow.bind(usersAPI), followSuccess)
+    }
+}
+
+export const unfollow = (userId) => {
+    return async (dispatch) => {
+        followUnfollowFlow(dispatch, userId, usersAPI.unfollow.bind(usersAPI), unfollowSuccess)
     }
 }
 
 
-export const addMessageCreator = () => ({type: ADD_MESSAGE})
-
-
-export const onMessageChangeCreator = (body) => ({
-    type: UPDATE_NEW_MESSAGE_TEXT,
-    message: body
-})
-
-
-export default messageReducer;
+export default humansReducer;

@@ -1,4 +1,4 @@
-.textarea {
+textarea {
     width: 100%;
     max-width: 400px;
     margin-right: 10px;
@@ -11,9 +11,8 @@
 .addMessage{
     display: flex;
     margin-bottom: 20px;
-}
+    line-height: 0;  }
 
 .button{
     width: 100px;
-
 }

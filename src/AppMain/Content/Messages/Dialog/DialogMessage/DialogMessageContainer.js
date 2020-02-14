@@ -1,23 +1,20 @@
 import React from 'react';
-import Message from './Message/Message';
+import DialogMessage from "./DialogMessage";
+import {connect} from 'react-redux'
 
 
-const DialogMessage = (props) => {
+let mapStateToProps = (state) => {
 
+    return {
+        MessagesArr: state.messagesPage.DialogArr
+    }
 
-    let DialogElement = props.MessagesArr.DialogArr.map(d => <Message message={d.message} id={d.id}/>);
-
-
-    return (
-        <div>
-            {DialogElement}
-        </div>
-
-    );
 }
 
+const DialogMessageContainer = connect(mapStateToProps)(DialogMessage);
 
-export default DialogMessage;
+
+export default DialogMessageContainer;
 
 
 

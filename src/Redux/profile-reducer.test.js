@@ -1,11 +1,7 @@
-import {profileAPI} from "../api/api";
+import React from 'react';
+import profileReducer, {addPostActionCreater, deletePost} from "./profile-reducer";
 
-const ADD_POST = 'ADD-POST';
-const SET_USER_PROFILE = 'SET_USER_PROFILE';
-const SET_STATUS = 'SET_STATUS';
-
-
-let initialState = {
+let state = {
     PostArr: [
         {
             text: "React (иногда React.js или ReactJS) — JavaScript-библиотека с открытым исходным кодом для разработки пользовательских интерфейсов.",
@@ -39,83 +35,44 @@ let initialState = {
             id: "6"
         }
     ],
-    newPostText: "Samurai",
-    profile: null,
-    status: ""
 
 }
 
 
-const profileReducer = (state = initialState, action) => {
-    switch (action.type) {
-        case ADD_POST: {
+test('new post should be added', () => {
+    let action = addPostActionCreater("samurai")
+    let newState = profileReducer(state, action)
+    expect(newState.PostArr.length).toBe(7)
+
+});
+
+test('must be samurai', () => {
+    let action = addPostActionCreater("samurai")
+    let newState = profileReducer(state, action)
+    expect(newState.PostArr[6].text).toBe("samurai")
+
+});
 
 
-            let newPost = {
-                text: action.newPostText,
-                name: "Иванов Иван",
-                like: "1"
-            }
+test('after deleting', () => {
+    let action = deletePost(1)
+    let newState = profileReducer(state, action)
+    expect(newState.PostArr.length).toBe(5)
+
+});
 
 
-            return {
-                ...state,
-                PostArr: [...state.PostArr, newPost],
-                newPostText: ''
-            }
-        }
+test('incorrect id', () => {
+    let action = deletePost(1000)
+    let newState = profileReducer(state, action)
+    expect(newState.PostArr.length).toBe(6)
+
+});
 
 
-        case  SET_USER_PROFILE: {
-            return {
-                ...state,
-                profile: action.profile
-            }
-        }
-
-        case  SET_STATUS: {
-            return {
-                ...state,
-                status: action.status
-            }
-        }
 
 
-        default: {
-            return state
-        }
-
-    }
-}
 
 
-export const addPostActionCreater = (newPostText) => ({type: ADD_POST, newPostText})
-
-export const setUserProfile = (profile) => ({type: SET_USER_PROFILE, profile})
-
-export const getUserProfile = (userId) => (dispatch) => {
-    profileAPI.getProfile(userId).then(response => {
-        dispatch(setUserProfile(response.data))
-    })
-}
-
-export const getStatus = (userId) => (dispatch) => {
-    profileAPI.getStatus(userId).then(response => {
-        dispatch(setStatus(response.data))
-    })
-}
-
-export const updateStatus = (status) => (dispatch) => {
-    profileAPI.updateStatus(status).then(response => {
-        if (response.data.resultCode === 0) {
-            dispatch(setStatus(status))
-
-        }
-    })
-}
 
 
-export const setStatus = (status) => ({type: SET_STATUS, status})
-
-
-export default profileReducer;

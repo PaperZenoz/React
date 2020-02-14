@@ -1,15 +1,7 @@
-.user{
-    width: 100%;
-    max-width: 200px;
-    margin-right: 20px;
-    border-right: 2px solid white;
-}
-
-.user li{
+.item{
     margin-bottom: 15px;
     font-size: 15px;
 }
-
 
 a{
     transition: all ease .3s;

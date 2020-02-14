@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="JavaScriptTestRunnerJest" name="new post should be added" />
+      <run-configuration type="JavaScriptTestRunnerJest" name="after deleting" />
+    </enabled-run-configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="454ae99b-9efc-4a5a-8e1d-e51e985f10ca" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.test.js" afterPath="$PROJECT_DIR$/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/AppMain.js" afterPath="$PROJECT_DIR$/src/AppMain/AppMain.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/AppMain.module.css" afterPath="$PROJECT_DIR$/src/AppMain/AppMain.module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Content.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Content.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Content.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Content.module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Humans/Human.jsx" afterPath="$PROJECT_DIR$/src/AppMain/Content/Humans/Human.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Humans/Humans.jsx" afterPath="$PROJECT_DIR$/src/AppMain/Content/Humans/Humans.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Humans/Humans.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Humans/Humans.module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Humans/HumansContainer.jsx" afterPath="$PROJECT_DIR$/src/AppMain/Content/Humans/HumansContainer.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Login/Login.jsx" afterPath="$PROJECT_DIR$/src/AppMain/Content/Login/Login.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/Dialog.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/Dialog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/Dialog.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/Dialog.module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogMessage/DialogMessage.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogMessage/DialogMessage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogMessage/DialogMessage.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogMessage/DialogMessage.module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogMessage/DialogMessageContainer.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogMessage/DialogMessageContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextArea.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextArea.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextArea.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextArea.module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextAreaContainer.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextAreaContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Messages.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Messages.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Messages.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Messages.module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/User/User.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/User/User.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/User/User.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/User/User.module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/Users.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/Users.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/Users.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/Users.module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/UsersContainer.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/UsersContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Music/Music.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Music/Music.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/News/News.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/News/News.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPost.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPost.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPost.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPost.module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPostContainer.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPostContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/PostElement/PostElement.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/PostElement/PostElement.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/PostElement/PostElement.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/PostElement/PostElement.module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/PostElement/PostElementContainer.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/PostElement/PostElementContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/Profile.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/Profile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/Profile.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/Profile.module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileContainer.jsx" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileContainer.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileItem.jsx" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileItem.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileItem.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileItem.module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatus.jsx" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatus.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatus.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatus.module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatusWithHooks.jsx" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatusWithHooks.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Settings/Settings.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Settings/Settings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Nav/Nav.js" afterPath="$PROJECT_DIR$/src/AppMain/Nav/Nav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Nav/Nav.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Nav/Nav.module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.css" afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx" afterPath="$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/app-reducer.js" afterPath="$PROJECT_DIR$/src/Redux/app-reducer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/auth-reducer.js" afterPath="$PROJECT_DIR$/src/Redux/auth-reducer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/humans-reducer.js" afterPath="$PROJECT_DIR$/src/Redux/humans-reducer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/humans-selectors.js" afterPath="$PROJECT_DIR$/src/Redux/humans-selectors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/messages-reducer.js" afterPath="$PROJECT_DIR$/src/Redux/messages-reducer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/profile-reducer.js" afterPath="$PROJECT_DIR$/src/Redux/profile-reducer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/profile-reducer.test.js" afterPath="$PROJECT_DIR$/src/Redux/profile-reducer.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/redux-store.js" afterPath="$PROJECT_DIR$/src/Redux/redux-store.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/store.js" afterPath="$PROJECT_DIR$/src/Redux/store.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/api.js" afterPath="$PROJECT_DIR$/src/api/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/FormsControls/FormsControl.module.css" afterPath="$PROJECT_DIR$/src/common/FormsControls/FormsControl.module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/FormsControls/FormsControls.js" afterPath="$PROJECT_DIR$/src/common/FormsControls/FormsControls.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/Paginator/Paginator.jsx" afterPath="$PROJECT_DIR$/src/common/Paginator/Paginator.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/Paginator/Paginator.module.css" afterPath="$PROJECT_DIR$/src/common/Paginator/Paginator.module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/Preloader/Preloader.js" afterPath="$PROJECT_DIR$/src/common/Preloader/Preloader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hoc/withAuthRedirect.js" afterPath="$PROJECT_DIR$/src/hoc/withAuthRedirect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hoc/withSuspence.js" afterPath="$PROJECT_DIR$/src/hoc/withSuspence.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/object-helpers.js" afterPath="$PROJECT_DIR$/src/utils/object-helpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/validators/validators.js" afterPath="$PROJECT_DIR$/src/utils/validators/validators.js" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="AppMain.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppMain/AppMain.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Content.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Content.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="withAuthRedirect.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hoc/withAuthRedirect.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="withSuspence.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hoc/withSuspence.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>BrowserRouter</find>
+      <find>`</find>
+      <find>newPost</find>
+      <find>state</find>
+      <find>Черно</find>
+      <find>THIS</find>
+      <find>withRo</find>
+      <find>axios</find>
+      <find>API-KEY</find>
+      <find>Отписаться</find>
+      <find>unfollow</find>
+      <find>followed</find>
+      <find>response</find>
+      <find>acceptFollow</find>
+      <find>authReducer</find>
+      <find>getAuthUserData</find>
+      <find>setUserAuthData</find>
+      <find>className</find>
+      <find>debugger</find>
+      <find>getHumans</find>
+      <find>props</find>
+      <find>STORE</find>
+      <find>prom</find>
+      <find>totalHumans</find>
+      <find>totalHumansCount</find>
+      <find>tota</find>
+      <find>totalUsers</find>
+      <find>total</find>
+      <find>debugg</find>
+      <find>totalItemsCount</find>
+    </findStrings>
+    <dirStrings>
+      <dir>F:\ReactProject\react-app\node_modules\react-router-dom\modules</dir>
+      <dir>F:\ReactProject\react-app</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx.html" />
+        <option value="$PROJECT_DIR$/src/AppMain/Nav/Nav.js" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileItem.module.css" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatus.jsx.html" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatus.module.css" />
+        <option value="$PROJECT_DIR$/src/hoc/withAuthRedirect.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/UsersContainer.js" />
+        <option value="$PROJECT_DIR$/src/Redux/messages-reducer.js" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/Dialog.js" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextAreaContainer.js" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPostContainer.js" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextArea.module.css" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPost.module.css" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPost.js" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextArea.js" />
+        <option value="$PROJECT_DIR$/src/utils/validators/validators.js" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatus.jsx" />
+        <option value="$PROJECT_DIR$/src/Components/Header/Header.module.css" />
+        <option value="$PROJECT_DIR$/src/Components/Header/Header.js" />
+        <option value="$PROJECT_DIR$/src/common/FormsControls/FormsControl.module.css" />
+        <option value="$PROJECT_DIR$/src/api/api.js" />
+        <option value="$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileContainer.jsx" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatusWithHooks.jsx" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileItem.jsx" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Profile/PostElement/PostElement.js" />
+        <option value="$PROJECT_DIR$/src/Redux/profile-reducer.test.js" />
+        <option value="$PROJECT_DIR$/src/Redux/auth-reducer.js" />
+        <option value="$PROJECT_DIR$/src/Redux/profile-reducer.js" />
+        <option value="$PROJECT_DIR$/src/utils/object-helpers.js" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Login/Login.jsx" />
+        <option value="$PROJECT_DIR$/src/common/FormsControls/FormsControls.js" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Humans/Paginator.jsx" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Humans/Humans.module.css" />
+        <option value="$PROJECT_DIR$/src/common/Paginator/Paginator.module.css" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Humans/Human.jsx" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Profile/Profile.js" />
+        <option value="$PROJECT_DIR$/src/Redux/redux-store.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/Redux/store.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/Redux/app-reducer.js" />
+        <option value="$PROJECT_DIR$/src/App.test.js" />
+        <option value="$PROJECT_DIR$/src/Redux/humans-selectors.js" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Humans/HumansContainer.jsx" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Humans/Humans.jsx" />
+        <option value="$PROJECT_DIR$/src/common/Paginator/Paginator.jsx" />
+        <option value="$PROJECT_DIR$/src/Redux/humans-reducer.js" />
+        <option value="$PROJECT_DIR$/src/hoc/withSuspence.js" />
+        <option value="$PROJECT_DIR$/src/AppMain/Content/Content.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="48" />
+    <option name="y" value="269" />
+    <option name="width" value="1300" />
+    <option name="height" value="851" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="react-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="react-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="react-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppMain" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="react-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="react-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Preloader" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="react-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="hoc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="F:/ReactGit/react-way-of-samurai" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="F:\ReactProject\react-app\node_modules\eslint" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="js.last.introduce.type" value="CONST" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ReactProject\react-app\src\AppMain\Content\Humans" />
+      <recent name="F:\ReactProject\react-app\src\Redux" />
+      <recent name="F:\ReactProject\react-app\src\AppMain\Content\Profile\ProfileItem\ProfileStatus" />
+      <recent name="F:\ReactProject\react-app\src\AppMain\Content\Profile\PostElement" />
+      <recent name="F:\ReactProject\react-app\src\AppMain\Content\Messages\Users" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\ReactProject\react-app\src\common\Paginator" />
+      <recent name="F:\ReactProject\react-app\src\common" />
+      <recent name="F:\ReactProject\react-app\src\AppMain\Content\Messages\Dialog\DialogMessage" />
+      <recent name="F:\ReactProject\react-app\src\AppMain\Content\Profile\PostElement" />
+      <recent name="F:\ReactProject\react-app\src\Components" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Jest.renders learn react link">
+    <configuration name="after deleting" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/Redux/profile-reducer.test.js" />
+      <test-names>
+        <test-name value="after deleting" />
+      </test-names>
+    </configuration>
+    <configuration name="incorrect id" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/Redux/profile-reducer.test.js" />
+      <test-names>
+        <test-name value="incorrect id" />
+      </test-names>
+    </configuration>
+    <configuration name="must be samurai" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/Redux/profile-reducer.test.js" />
+      <test-names>
+        <test-name value="must be samurai" />
+      </test-names>
+    </configuration>
+    <configuration name="new post should be added" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/Redux/profile-reducer.test.js" />
+      <test-names>
+        <test-name value="new post should be added" />
+      </test-names>
+    </configuration>
+    <configuration name="renders learn react link" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-names>
+        <test-name value="renders learn react link" />
+      </test-names>
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Jest.new post should be added" />
+      <item index="1" class="java.lang.String" itemvalue="Jest.after deleting" />
+      <item index="2" class="java.lang.String" itemvalue="Jest.must be samurai" />
+      <item index="3" class="java.lang.String" itemvalue="Jest.incorrect id" />
+      <item index="4" class="java.lang.String" itemvalue="Jest.renders learn react link" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Jest.renders learn react link" />
+        <item index="1" class="java.lang.String" itemvalue="Jest.incorrect id" />
+        <item index="2" class="java.lang.String" itemvalue="Jest.must be samurai" />
+        <item index="3" class="java.lang.String" itemvalue="Jest.after deleting" />
+        <item index="4" class="java.lang.String" itemvalue="Jest.new post should be added" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="454ae99b-9efc-4a5a-8e1d-e51e985f10ca" name="Default" comment="" />
+      <created>1577472149200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577472149200</updated>
+      <workItem from="1577472152458" duration="11354000" />
+      <workItem from="1577550153452" duration="886000" />
+      <workItem from="1578419011832" duration="38672000" />
+      <workItem from="1578697939827" duration="7636000" />
+      <workItem from="1578707068798" duration="2771000" />
+      <workItem from="1578939194980" duration="57843000" />
+      <workItem from="1579380184508" duration="18659000" />
+      <workItem from="1579563430069" duration="221000" />
+      <workItem from="1579563859637" duration="18031000" />
+      <workItem from="1579660827581" duration="62405000" />
+      <workItem from="1580117122512" duration="3898000" />
+      <workItem from="1580209494301" duration="54459000" />
+      <workItem from="1580560820018" duration="145000" />
+      <workItem from="1580620886914" duration="57659000" />
+      <workItem from="1580883576000" duration="25196000" />
+      <workItem from="1581072052917" duration="2014000" />
+      <workItem from="1581082653351" duration="18155000" />
+      <workItem from="1581271528217" duration="21586000" />
+      <workItem from="1581409352241" duration="657000" />
+      <workItem from="1581514065123" duration="11000" />
+      <workItem from="1581685825145" duration="3736000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="after_deleting - 2020.02.08 at 00h 01m 03s.xml">
+      <configuration name="after deleting" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="after_deleting - 2020.02.08 at 00h 01m 35s.xml">
+      <configuration name="after deleting" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="after_deleting - 2020.02.08 at 00h 01m 39s.xml">
+      <configuration name="after deleting" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="after_deleting - 2020.02.08 at 00h 10m 54s.xml">
+      <configuration name="after deleting" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="after_deleting - 2020.02.08 at 00h 12m 05s.xml">
+      <configuration name="after deleting" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="after_deleting - 2020.02.08 at 00h 13m 03s.xml">
+      <configuration name="after deleting" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="incorrect_id - 2020.02.10 at 01h 07m 18s.xml">
+      <configuration name="incorrect id" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="must_be_samurai - 2020.02.08 at 00h 13m 07s.xml">
+      <configuration name="must be samurai" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="renders_learn_react_link - 2020.02.10 at 18h 54m 41s.xml">
+      <configuration name="renders learn react link" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="renders_learn_react_link - 2020.02.10 at 18h 55m 07s.xml">
+      <configuration name="renders learn react link" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="405994000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="48" y="269" width="1300" height="851" extended-state="0" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2875817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4528302" sideWeight="0.5064447" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278302" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.58986175" sideWeight="0.4935553" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976415" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0881104" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.76404494" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4528302" sideWeight="0.5064447" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0881104" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278302" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4528302" sideWeight="0.4935553" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18098818" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.76404494" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976415" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/AppMain/Content/Content.js</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/AppMain/Content/Messages/DialogTextArea/DialogTextArea.js</url>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Redux/store.js</url>
+          <line>33</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Redux/store.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Redux/store.js</url>
+          <line>80</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Redux/messages-reducer.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Components/Header/Header.js</url>
+          <line>13</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx</url>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/AppMain/Content/Humans/Humans.jsx</url>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="30" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Redux/messages-reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPostContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogMessage/DialogMessageContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextAreaContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextArea.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPost.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Messages/Messages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextArea.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="104" lean-forward="true" selection-start-line="26" selection-start-column="104" selection-end-line="26" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/Dialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/validators/validators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Header/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Header/Header.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/FormsControls/FormsControl.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatusWithHooks.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Profile/PostElement/Post/Post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatus.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileItem.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Profile/PostElement/PostElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/auth-reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/object-helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/FormsControls/FormsControls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="61" lean-forward="false" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Paginator/Paginator.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Login/Login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Humans/Humans.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Profile/Profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="73" lean-forward="false" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="97" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json.3541404688">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-454">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/app-reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-878">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/profile-reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="25" lean-forward="false" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/redux-store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/profile-reducer.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Humans/Humans.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="107" lean-forward="false" selection-start-line="10" selection-start-column="92" selection-end-line="10" selection-end-column="107" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Humans/HumansContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="59" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/humans-selectors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Humans/Human.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="47" column="34" lean-forward="false" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Paginator/Paginator.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/humans-reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/AppMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hoc/withSuspence.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hoc/withAuthRedirect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

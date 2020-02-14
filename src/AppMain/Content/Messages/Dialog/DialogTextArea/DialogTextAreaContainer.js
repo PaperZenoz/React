@@ -1,37 +1,35 @@
 import React from 'react';
-import s from './DialogTextArea.module.css'
-import {addMessageCreator, onMessageChangeCreator} from '../../../../../Redux/messages-reducer'
+import {addMessageCreator} from '../../../../../Redux/messages-reducer'
+import DialogTextArea from "./DialogTextArea";
+import {connect} from 'react-redux'
+import {Redirect} from "react-router-dom";
+import {withAuthRedirect} from "../../../../../hoc/withAuthRedirect";
+import {compose} from "redux";
 
-
-const DialogTextArea = (props) => {
-    let AddMessage = () => {
-        props.dispatch(addMessageCreator());
+let mapStateToProps = (state) => {
+    return {
+        newMessageText: state.messagesPage.newMessageText,
+        isAuth: state.auth.isAuth
     }
 
+}
 
-    let onMessageChange = (e) => {
-        let body = e.target.value;
-        props.dispatch(onMessageChangeCreator(body))
+let mapDispatchToProps = (dispatch) => {
+    return {
+        AddMessage: (newMessageText) => {
+            dispatch(addMessageCreator(newMessageText))
+        }
+
+
     }
 
-
-    let newMessageText = props.MessagesArr.newMessageText
-
-
-    return (
-        <div className={s.wrap}>
-            <div className={s.addMessage}>
-                <textarea className={s.textarea} onChange={onMessageChange} value={newMessageText}/>
-                <button className={s.button} onClick={AddMessage}>Добавить</button>
-            </div>
-        </div>
-
-    );
 }
 
 
-export default DialogTextArea;
-
+export default compose(
+    connect(mapStateToProps, mapDispatchToProps),
+    withAuthRedirect
+)(DialogTextArea)
 
 
 

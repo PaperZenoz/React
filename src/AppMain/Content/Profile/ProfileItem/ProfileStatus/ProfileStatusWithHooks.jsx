@@ -1,63 +1,50 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import s from './ProfileStatus.module.css'
 
-class ProfileStatus extends React.Component {
+const ProfileStatusWithHooks = (props) => {
 
-    state = {
-        editMode: false,
-        status: this.props.status
+    let [editMode, setEditMode] = useState(false)
+    let [status, setStatus] = useState(props.status)
+
+
+    const activateMode = () => {
+        setEditMode(true)
     }
 
-    activateEditMode = () => {
-        this.setState({
-            editMode: true,
-        })
-
+    const deactivateEditMode = () => {
+        setEditMode(false)
+        props.updateStatus(status);
     }
 
-    deactivateEditMode = () => {
-        this.setState({
-            editMode: false,
-        })
-        this.props.updateStatus(this.state.status);
+    const onStatusChange = (e) => {
+        setStatus(e.currentTarget.value)
     }
 
-    onStatusChange = (e) => {
-        this.setState({
-            status: e.currentTarget.value
-        })
-    }
+    useEffect(()=>{
+        setStatus(props.status)
+    }, [props.status])
 
-    componentDidUpdate = (prevProps, prevState) => {
-        if (prevProps.status !== this.props.status)
-            this.setState({
-                status: this.props.status
-            });
 
-    }
 
-    render() {
-        return (
-            <div className={s.wrap}>
-                {!this.state.editMode &&
-                <div>
-                    <p onClick={this.activateEditMode}>{this.props.status || "Тут мог быть ваш статус"}</p>
-                </div>
-                }
-                {this.state.editMode &&
-                <div>
-                    <input onChange={this.onStatusChange} autoFocus={true} value={this.state.status}
-                           onBlur={this.deactivateEditMode}></input>
-                </div>
-                }
+    return (
+        <div className={s.wrap}>
+            {!editMode &&
+            <div>
+                <p onClick={activateMode}>{props.status || "Тут мог быть ваш статус"}</p>
             </div>
-        );
+            }
+            {editMode &&
+            <div>
+                <input autoFocus={true} onBlur={deactivateEditMode} onChange={onStatusChange} value={status}></input>
+            </div>
+            }
+        </div>
+    );
 
-    }
 }
 
 
-export default ProfileStatus;
+export default ProfileStatusWithHooks;
 
 
 

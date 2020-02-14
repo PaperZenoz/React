@@ -1,26 +1,55 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import AppMain from './AppMain/AppMain';
+import HeaderContainer from "./Components/Header/HeaderContainer";
+import {connect, Provider} from "react-redux";
+import {BrowserRouter, withRouter} from "react-router-dom";
+import {initializeApp} from "./Redux/app-reducer";
+import Preloader from "./common/Preloader/Preloader";
+import {compose} from "redux";
+import store from "./Redux/redux-store";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+    componentDidMount() {
+         this.props.initializeApp()
+    }
+
+    render() {
+        if (!this.props.initialized) {
+            return <Preloader/>
+
+        }
+
+
+        return (
+            <div className="app-wrapper">
+                <HeaderContainer/>
+                <AppMain/>
+            </div>
+        );
+    }
 }
 
-export default App;
+
+
+const mapStateToProps = (state) => ({
+    initialized: state.app.initialized,
+})
+
+const AppContainer = compose(
+    withRouter,
+    connect(mapStateToProps, {initializeApp})
+)(App)
+
+const SamuraiApp = (props) => {
+    return (
+        <BrowserRouter>
+            <Provider store={store}>
+                <AppContainer/>
+            </Provider>
+        </BrowserRouter>
+    )
+}
+
+export default SamuraiApp;

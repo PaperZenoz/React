@@ -5,20 +5,3 @@
     border-right: 2px solid white;
 }
 
-.user li{
-    margin-bottom: 15px;
-    font-size: 15px;
-}
-
-
-a{
-    transition: all ease .3s;
-}
-
-a:hover{
-    color: peru;
-}
-
-a.active{
-    color: peru;
-}
