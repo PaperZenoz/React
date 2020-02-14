@@ -7,79 +7,7 @@
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="454ae99b-9efc-4a5a-8e1d-e51e985f10ca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.test.js" afterPath="$PROJECT_DIR$/src/App.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/AppMain.js" afterPath="$PROJECT_DIR$/src/AppMain/AppMain.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/AppMain.module.css" afterPath="$PROJECT_DIR$/src/AppMain/AppMain.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Content.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Content.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Content.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Content.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Humans/Human.jsx" afterPath="$PROJECT_DIR$/src/AppMain/Content/Humans/Human.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Humans/Humans.jsx" afterPath="$PROJECT_DIR$/src/AppMain/Content/Humans/Humans.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Humans/Humans.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Humans/Humans.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Humans/HumansContainer.jsx" afterPath="$PROJECT_DIR$/src/AppMain/Content/Humans/HumansContainer.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Login/Login.jsx" afterPath="$PROJECT_DIR$/src/AppMain/Content/Login/Login.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/Dialog.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/Dialog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/Dialog.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/Dialog.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogMessage/DialogMessage.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogMessage/DialogMessage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogMessage/DialogMessage.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogMessage/DialogMessage.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogMessage/DialogMessageContainer.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogMessage/DialogMessageContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextArea.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextArea.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextArea.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextArea.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextAreaContainer.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextAreaContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Messages.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Messages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Messages.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Messages.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/User/User.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/User/User.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/User/User.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/User/User.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/Users.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/Users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/Users.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/Users.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/UsersContainer.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Messages/Users/UsersContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Music/Music.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Music/Music.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/News/News.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/News/News.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPost.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPost.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPost.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPost.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPostContainer.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPostContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/PostElement/PostElement.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/PostElement/PostElement.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/PostElement/PostElement.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/PostElement/PostElement.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/PostElement/PostElementContainer.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/PostElement/PostElementContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/Profile.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/Profile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/Profile.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/Profile.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileContainer.jsx" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileContainer.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileItem.jsx" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileItem.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileItem.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileItem.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatus.jsx" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatus.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatus.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatus.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatusWithHooks.jsx" afterPath="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatusWithHooks.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Content/Settings/Settings.js" afterPath="$PROJECT_DIR$/src/AppMain/Content/Settings/Settings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Nav/Nav.js" afterPath="$PROJECT_DIR$/src/AppMain/Nav/Nav.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppMain/Nav/Nav.module.css" afterPath="$PROJECT_DIR$/src/AppMain/Nav/Nav.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.css" afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx" afterPath="$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/app-reducer.js" afterPath="$PROJECT_DIR$/src/Redux/app-reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/auth-reducer.js" afterPath="$PROJECT_DIR$/src/Redux/auth-reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/humans-reducer.js" afterPath="$PROJECT_DIR$/src/Redux/humans-reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/humans-selectors.js" afterPath="$PROJECT_DIR$/src/Redux/humans-selectors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/messages-reducer.js" afterPath="$PROJECT_DIR$/src/Redux/messages-reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/profile-reducer.js" afterPath="$PROJECT_DIR$/src/Redux/profile-reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/profile-reducer.test.js" afterPath="$PROJECT_DIR$/src/Redux/profile-reducer.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/redux-store.js" afterPath="$PROJECT_DIR$/src/Redux/redux-store.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/store.js" afterPath="$PROJECT_DIR$/src/Redux/store.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/api.js" afterPath="$PROJECT_DIR$/src/api/api.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/FormsControls/FormsControl.module.css" afterPath="$PROJECT_DIR$/src/common/FormsControls/FormsControl.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/FormsControls/FormsControls.js" afterPath="$PROJECT_DIR$/src/common/FormsControls/FormsControls.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/Paginator/Paginator.jsx" afterPath="$PROJECT_DIR$/src/common/Paginator/Paginator.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/Paginator/Paginator.module.css" afterPath="$PROJECT_DIR$/src/common/Paginator/Paginator.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/Preloader/Preloader.js" afterPath="$PROJECT_DIR$/src/common/Preloader/Preloader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hoc/withAuthRedirect.js" afterPath="$PROJECT_DIR$/src/hoc/withAuthRedirect.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hoc/withSuspence.js" afterPath="$PROJECT_DIR$/src/hoc/withSuspence.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/object-helpers.js" afterPath="$PROJECT_DIR$/src/utils/object-helpers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/validators/validators.js" afterPath="$PROJECT_DIR$/src/utils/validators/validators.js" />
-    </list>
+    <list default="true" id="454ae99b-9efc-4a5a-8e1d-e51e985f10ca" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -257,7 +185,7 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="48" />
     <option name="y" value="269" />
     <option name="width" value="1300" />
@@ -489,7 +417,7 @@
       <workItem from="1581271528217" duration="21586000" />
       <workItem from="1581409352241" duration="657000" />
       <workItem from="1581514065123" duration="11000" />
-      <workItem from="1581685825145" duration="3736000" />
+      <workItem from="1581685825145" duration="3903000" />
     </task>
     <servers />
   </component>
@@ -526,13 +454,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="405994000" />
+    <option name="totallyTimeSpent" value="406161000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="269" width="1300" height="851" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2875817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18904404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4528302" sideWeight="0.5064447" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -540,7 +468,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.58986175" sideWeight="0.4935553" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1356132" sideWeight="0.4935553" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976415" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
