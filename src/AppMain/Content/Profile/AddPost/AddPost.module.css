@@ -1,0 +1,11 @@
+.wrap textarea{
+    width: 100%;
+    max-width: 400px;
+    margin-right: 10px;
+    height: 100px;
+}
+
+.wrap{
+    display: flex;
+    margin-bottom: 20px;
+}

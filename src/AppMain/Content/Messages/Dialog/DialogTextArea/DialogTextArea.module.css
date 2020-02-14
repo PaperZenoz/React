@@ -1,0 +1,19 @@
+.textarea {
+    width: 100%;
+    max-width: 400px;
+    margin-right: 10px;
+}
+
+.wrap{
+    width: 100%;
+}
+
+.addMessage{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.button{
+    width: 100px;
+
+}
