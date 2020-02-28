@@ -30,7 +30,7 @@ const ProfileStatusWithHooks = (props) => {
         <div className={s.wrap}>
             {!editMode &&
             <div>
-                <p onClick={activateMode}>{props.status || "Тут мог быть ваш статус"}</p>
+                <p onClick={activateMode}>Статус: {props.status || "Тут мог быть ваш статус"}</p>
             </div>
             }
             {editMode &&

@@ -11,8 +11,18 @@ import store from "./Redux/redux-store";
 
 
 class App extends React.Component {
+    cactchAllUnhandledErrors = (promiseRejectionEvent) =>{
+
+    }
+
     componentDidMount() {
-         this.props.initializeApp()
+        this.props.initializeApp()
+        window.addEventListener("unhandledrejection", this.cactchAllUnhandledErrors);
+    }
+
+    componentWillUnmount(){
+        window.removeEventListener("unhandledrejection", this.cactchAllUnhandledErrors);
+
     }
 
     render() {
@@ -32,7 +42,6 @@ class App extends React.Component {
 }
 
 
-
 const mapStateToProps = (state) => ({
     initialized: state.app.initialized,
 })
@@ -44,7 +53,7 @@ const AppContainer = compose(
 
 const SamuraiApp = (props) => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Provider store={store}>
                 <AppContainer/>
             </Provider>

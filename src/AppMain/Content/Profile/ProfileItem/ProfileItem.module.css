@@ -8,3 +8,13 @@
     max-width: 400px;
     margin-bottom: 20px;
 }
+
+p {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contacts{
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
