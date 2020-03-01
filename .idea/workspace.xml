@@ -9,7 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="454ae99b-9efc-4a5a-8e1d-e51e985f10ca" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/auth-reducer.ts" afterPath="$PROJECT_DIR$/src/Redux/auth-reducer.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Redux/messages-reducer.js" afterPath="$PROJECT_DIR$/src/Redux/messages-reducer.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,10 +20,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="auth-reducer.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="auth-reducer.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Redux/auth-reducer.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="575">
               <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
@@ -32,28 +32,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messages-reducer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Redux/messages-reducer.js">
+      <file leaf-file-name="messages-reducer.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Redux/messages-reducer.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding>
-                <marker date="1580714392387" expanded="true" signature="55:740" ph="{...}" />
-                <marker date="1580714392387" expanded="true" signature="70:521" ph="[...]" />
-                <marker date="1580714392387" expanded="true" signature="80:142" ph="{&quot;id&quot;: 1...}" />
-                <marker date="1580714392387" expanded="true" signature="152:216" ph="{&quot;id&quot;: 2...}" />
-                <marker date="1580714392387" expanded="true" signature="226:289" ph="{&quot;id&quot;: 3...}" />
-                <marker date="1580714392387" expanded="true" signature="299:365" ph="{&quot;id&quot;: 4...}" />
-                <marker date="1580714392387" expanded="true" signature="375:441" ph="{&quot;id&quot;: 5...}" />
-                <marker date="1580714392387" expanded="true" signature="451:514" ph="{&quot;id&quot;: 6...}" />
-                <marker date="1580714392387" expanded="true" signature="538:737" ph="[...]" />
-                <marker date="1580714392387" expanded="true" signature="639:699" ph="{&quot;id&quot;: 4...}" />
-                <marker date="1580714392387" expanded="true" signature="800:1100" ph="{...}" />
-                <marker date="1580714392387" expanded="true" signature="828:1098" ph="{...}" />
-                <marker date="1580714392387" expanded="true" signature="855:1048" ph="..." />
-                <marker date="1580714392387" expanded="true" signature="924:1037" ph="{...}" />
-                <marker date="1580714392387" expanded="true" signature="1066:1091" ph="..." />
-              </folding>
+            <state relative-caret-position="350">
+              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Redux/messages-reducer.js" />
         <option value="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/Dialog.js" />
         <option value="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextAreaContainer.js" />
         <option value="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPostContainer.js" />
@@ -164,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/Redux/app-reducer.ts" />
         <option value="$PROJECT_DIR$/src/Redux/auth-reducer.js" />
         <option value="$PROJECT_DIR$/src/Redux/auth-reducer.ts" />
+        <option value="$PROJECT_DIR$/src/Redux/messages-reducer.ts" />
       </list>
     </option>
   </component>
@@ -180,7 +164,7 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="282" />
     <option name="y" value="102" />
     <option name="width" value="1300" />
@@ -399,7 +383,7 @@
       <workItem from="1582191228887" duration="2926000" />
       <workItem from="1582223417096" duration="16000" />
       <workItem from="1582894285729" duration="1568000" />
-      <workItem from="1582927662333" duration="8507000" />
+      <workItem from="1582927662333" duration="9699000" />
     </task>
     <servers />
   </component>
@@ -436,10 +420,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="472954000" />
+    <option name="totallyTimeSpent" value="474146000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -528,8 +512,8 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Redux/messages-reducer.js</url>
-          <line>2</line>
+          <url>file://$PROJECT_DIR$/src/Redux/messages-reducer.ts</url>
+          <line>12</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -912,37 +896,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Redux/messages-reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <marker date="1580714392387" expanded="true" signature="55:740" ph="{...}" />
-            <marker date="1580714392387" expanded="true" signature="70:521" ph="[...]" />
-            <marker date="1580714392387" expanded="true" signature="80:142" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1580714392387" expanded="true" signature="152:216" ph="{&quot;id&quot;: 2...}" />
-            <marker date="1580714392387" expanded="true" signature="226:289" ph="{&quot;id&quot;: 3...}" />
-            <marker date="1580714392387" expanded="true" signature="299:365" ph="{&quot;id&quot;: 4...}" />
-            <marker date="1580714392387" expanded="true" signature="375:441" ph="{&quot;id&quot;: 5...}" />
-            <marker date="1580714392387" expanded="true" signature="451:514" ph="{&quot;id&quot;: 6...}" />
-            <marker date="1580714392387" expanded="true" signature="538:737" ph="[...]" />
-            <marker date="1580714392387" expanded="true" signature="639:699" ph="{&quot;id&quot;: 4...}" />
-            <marker date="1580714392387" expanded="true" signature="800:1100" ph="{...}" />
-            <marker date="1580714392387" expanded="true" signature="828:1098" ph="{...}" />
-            <marker date="1580714392387" expanded="true" signature="855:1048" ph="..." />
-            <marker date="1580714392387" expanded="true" signature="924:1037" ph="{...}" />
-            <marker date="1580714392387" expanded="true" signature="1066:1091" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Redux/auth-reducer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="575">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/messages-reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
