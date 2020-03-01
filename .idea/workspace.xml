@@ -8,8 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="454ae99b-9efc-4a5a-8e1d-e51e985f10ca" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/types/types.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Redux/profile-reducer.js" afterPath="$PROJECT_DIR$/src/Redux/profile-reducer.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Redux/profile-reducer.ts" afterPath="$PROJECT_DIR$/src/Redux/profile-reducer.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Redux/humans-reducer.js" afterPath="$PROJECT_DIR$/src/Redux/humans-reducer.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,6 +34,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="humans-reducer.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Redux/humans-reducer.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="107" column="13" lean-forward="true" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+                <element signature="n#!!block;n#FollowSuccessAT#0" expanded="false" />
+                <element signature="n#!!block;n#UnfollowSuccess#0" expanded="false" />
+                <element signature="n#!!block;n#RequestHumansAT#0" expanded="false" />
+                <element signature="n#!!block;n#SetTotalUsersCountAT#0" expanded="false" />
+                <element signature="e#2551#2614#0" expanded="false" />
+                <element signature="n#!!block;n#SetCurrentPageAT#0" expanded="false" />
+                <element signature="n#!!block;n#SetIsFetchingAT#0" expanded="false" />
+                <element signature="e#3099#3169#0" expanded="false" />
+                <element signature="e#3239#3577#0" expanded="false" />
+                <element signature="e#3682#3923#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="messages-reducer.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Redux/messages-reducer.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,16 +66,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile-reducer.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="profile-reducer.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Redux/profile-reducer.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-416">
-              <caret line="105" column="33" lean-forward="true" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
+            <state relative-caret-position="1911">
+              <caret line="192" column="48" lean-forward="false" selection-start-line="192" selection-start-column="48" selection-end-line="192" selection-end-column="48" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-                <element signature="n#!!block;n#ContactsType#0" expanded="false" />
-                <element signature="n#!!block;n#PhotosType#0" expanded="false" />
-                <element signature="n#!!block;n#ProfileType#0" expanded="false" />
                 <element signature="n#!!block;n#SetStatusAT#0" expanded="false" />
                 <element signature="n#!!block;n#DeletePostAT#0" expanded="false" />
                 <element signature="n#!!block;n#SavePhotoSuccess#0" expanded="false" />
@@ -60,12 +81,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProfileItem.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileItem.jsx">
+      <file leaf-file-name="types.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/types/types.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="51" column="6" lean-forward="false" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="100">
+              <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="22" />
+              <folding>
+                <element signature="n#!!block;n#PostArrType#0" expanded="false" />
+                <element signature="n#!!block;n#ContactsType#0" expanded="false" />
+                <element signature="n#!!block;n#PhotosType#0" expanded="false" />
+                <element signature="n#!!block;n#ProfileType#0" expanded="false" />
+                <element signature="n#!!block;n#HumansType#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,7 +110,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>acceptFollow</find>
       <find>authReducer</find>
       <find>getAuthUserData</find>
       <find>setUserAuthData</find>
@@ -113,6 +139,7 @@
       <find>dispatch</find>
       <find>looking</find>
       <find>facebook</find>
+      <find>sidebarReducer</find>
     </findStrings>
     <dirStrings>
       <dir>F:\ReactProject\react-app\node_modules\react-router-dom\modules</dir>
@@ -125,9 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextAreaContainer.js" />
-        <option value="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPostContainer.js" />
-        <option value="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextArea.module.css" />
         <option value="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPost.module.css" />
         <option value="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPost.js" />
         <option value="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextArea.js" />
@@ -153,7 +177,6 @@
         <option value="$PROJECT_DIR$/src/AppMain/Content/Humans/HumansContainer.jsx" />
         <option value="$PROJECT_DIR$/src/AppMain/Content/Humans/Humans.jsx" />
         <option value="$PROJECT_DIR$/src/common/Paginator/Paginator.jsx" />
-        <option value="$PROJECT_DIR$/src/Redux/humans-reducer.js" />
         <option value="$PROJECT_DIR$/src/hoc/withSuspence.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileStatus/ProfileStatusWithHooks.jsx" />
@@ -175,7 +198,11 @@
         <option value="$PROJECT_DIR$/src/Redux/auth-reducer.js" />
         <option value="$PROJECT_DIR$/src/Redux/auth-reducer.ts" />
         <option value="$PROJECT_DIR$/src/Redux/messages-reducer.ts" />
+        <option value="$PROJECT_DIR$/src/types/types.ts.js" />
         <option value="$PROJECT_DIR$/src/Redux/profile-reducer.ts" />
+        <option value="$PROJECT_DIR$/src/Redux/humans-reducer.js" />
+        <option value="$PROJECT_DIR$/src/types/types.ts" />
+        <option value="$PROJECT_DIR$/src/Redux/humans-reducer.ts" />
       </list>
     </option>
   </component>
@@ -192,7 +219,7 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="282" />
     <option name="y" value="102" />
     <option name="width" value="1300" />
@@ -250,6 +277,12 @@
               <item name="React" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Redux" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="React" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="types" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -411,7 +444,7 @@
       <workItem from="1582191228887" duration="2926000" />
       <workItem from="1582223417096" duration="16000" />
       <workItem from="1582894285729" duration="1568000" />
-      <workItem from="1582927662333" duration="13700000" />
+      <workItem from="1582927662333" duration="18837000" />
     </task>
     <servers />
   </component>
@@ -448,10 +481,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="478147000" />
+    <option name="totallyTimeSpent" value="483284000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -559,12 +592,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Redux/profile-reducer.ts</url>
-          <line>87</line>
+          <line>59</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Redux/profile-reducer.ts</url>
-          <line>207</line>
+          <line>179</line>
           <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
@@ -574,14 +607,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Components/Header/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -880,14 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Redux/humans-reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="104" column="1" lean-forward="false" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-775">
@@ -932,16 +949,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Redux/profile-reducer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-416">
-          <caret line="105" column="33" lean-forward="true" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
+        <state relative-caret-position="1911">
+          <caret line="192" column="48" lean-forward="false" selection-start-line="192" selection-start-column="48" selection-end-line="192" selection-end-column="48" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-            <element signature="n#!!block;n#ContactsType#0" expanded="false" />
-            <element signature="n#!!block;n#PhotosType#0" expanded="false" />
-            <element signature="n#!!block;n#ProfileType#0" expanded="false" />
             <element signature="n#!!block;n#SetStatusAT#0" expanded="false" />
             <element signature="n#!!block;n#DeletePostAT#0" expanded="false" />
             <element signature="n#!!block;n#SavePhotoSuccess#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/types/types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!block;n#PostArrType#0" expanded="false" />
+            <element signature="n#!!block;n#ContactsType#0" expanded="false" />
+            <element signature="n#!!block;n#PhotosType#0" expanded="false" />
+            <element signature="n#!!block;n#ProfileType#0" expanded="false" />
+            <element signature="n#!!block;n#HumansType#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/humans-reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="107" column="13" lean-forward="true" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+            <element signature="n#!!block;n#FollowSuccessAT#0" expanded="false" />
+            <element signature="n#!!block;n#UnfollowSuccess#0" expanded="false" />
+            <element signature="n#!!block;n#RequestHumansAT#0" expanded="false" />
+            <element signature="n#!!block;n#SetTotalUsersCountAT#0" expanded="false" />
+            <element signature="e#2551#2614#0" expanded="false" />
+            <element signature="n#!!block;n#SetCurrentPageAT#0" expanded="false" />
+            <element signature="n#!!block;n#SetIsFetchingAT#0" expanded="false" />
+            <element signature="e#3099#3169#0" expanded="false" />
+            <element signature="e#3239#3577#0" expanded="false" />
+            <element signature="e#3682#3923#0" expanded="false" />
           </folding>
         </state>
       </provider>
