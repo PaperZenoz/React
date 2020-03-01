@@ -8,9 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="454ae99b-9efc-4a5a-8e1d-e51e985f10ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Redux/messages-reducer.ts" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Redux/messages-reducer.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Redux/profile-reducer.js" afterPath="$PROJECT_DIR$/src/Redux/profile-reducer.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,11 +32,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messages-reducer.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="messages-reducer.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Redux/messages-reducer.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="1200">
               <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile-reducer.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Redux/profile-reducer.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-416">
+              <caret line="105" column="33" lean-forward="true" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+                <element signature="n#!!block;n#ContactsType#0" expanded="false" />
+                <element signature="n#!!block;n#PhotosType#0" expanded="false" />
+                <element signature="n#!!block;n#ProfileType#0" expanded="false" />
+                <element signature="n#!!block;n#SetStatusAT#0" expanded="false" />
+                <element signature="n#!!block;n#DeletePostAT#0" expanded="false" />
+                <element signature="n#!!block;n#SavePhotoSuccess#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfileItem.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileItem.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="51" column="6" lean-forward="false" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -56,8 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>followed</find>
-      <find>response</find>
       <find>acceptFollow</find>
       <find>authReducer</find>
       <find>getAuthUserData</find>
@@ -86,6 +111,8 @@
       <find>debugg</find>
       <find>API-K</find>
       <find>dispatch</find>
+      <find>looking</find>
+      <find>facebook</find>
     </findStrings>
     <dirStrings>
       <dir>F:\ReactProject\react-app\node_modules\react-router-dom\modules</dir>
@@ -98,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/Dialog.js" />
         <option value="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextAreaContainer.js" />
         <option value="$PROJECT_DIR$/src/AppMain/Content/Profile/AddPost/AddPostContainer.js" />
         <option value="$PROJECT_DIR$/src/AppMain/Content/Messages/Dialog/DialogTextArea/DialogTextArea.module.css" />
@@ -149,6 +175,7 @@
         <option value="$PROJECT_DIR$/src/Redux/auth-reducer.js" />
         <option value="$PROJECT_DIR$/src/Redux/auth-reducer.ts" />
         <option value="$PROJECT_DIR$/src/Redux/messages-reducer.ts" />
+        <option value="$PROJECT_DIR$/src/Redux/profile-reducer.ts" />
       </list>
     </option>
   </component>
@@ -165,7 +192,7 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="282" />
     <option name="y" value="102" />
     <option name="width" value="1300" />
@@ -384,7 +411,7 @@
       <workItem from="1582191228887" duration="2926000" />
       <workItem from="1582223417096" duration="16000" />
       <workItem from="1582894285729" duration="1568000" />
-      <workItem from="1582927662333" duration="10125000" />
+      <workItem from="1582927662333" duration="13700000" />
     </task>
     <servers />
   </component>
@@ -421,10 +448,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="474572000" />
+    <option name="totallyTimeSpent" value="478147000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4528302" sideWeight="0.5064447" order="8" side_tool="true" content_ui="tabs" />
@@ -434,8 +462,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18396227" sideWeight="0.4935553" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20784102" sideWeight="0.48596492" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20784102" sideWeight="0.48596492" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.76404494" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976415" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -446,7 +475,6 @@
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0881104" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.76404494" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -530,12 +558,18 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Redux/profile-reducer.js</url>
-          <line>54</line>
+          <url>file://$PROJECT_DIR$/src/Redux/profile-reducer.ts</url>
+          <line>87</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Redux/profile-reducer.ts</url>
+          <line>207</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="32" />
+      <option name="time" value="33" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -745,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileItem.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Login/Login.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -823,9 +850,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="97" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -867,24 +892,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-775">
           <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="49" />
-          <folding>
-            <marker date="1582934245295" expanded="true" signature="136:790" ph="{&quot;@testing-library/jest-dom&quot;: &quot;^4.2.4&quot;...}" />
-            <marker date="1582934245295" expanded="true" signature="805:1020" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
-            <marker date="1582934245295" expanded="true" signature="1040:1072" ph="{&quot;extends&quot;: &quot;react-app&quot;...}" />
-            <marker date="1582934245295" expanded="true" signature="1092:1301" ph="{...}" />
-            <marker date="1582934245295" expanded="true" signature="1112:1176" ph="[...]" />
-            <marker date="1582934245295" expanded="true" signature="1197:1297" ph="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Redux/profile-reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -906,11 +914,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain/Content/Profile/ProfileItem/ProfileItem.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="51" column="6" lean-forward="false" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Redux/messages-reducer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="1200">
           <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/profile-reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="105" column="33" lean-forward="true" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="n#!!block;n#ContactsType#0" expanded="false" />
+            <element signature="n#!!block;n#PhotosType#0" expanded="false" />
+            <element signature="n#!!block;n#ProfileType#0" expanded="false" />
+            <element signature="n#!!block;n#SetStatusAT#0" expanded="false" />
+            <element signature="n#!!block;n#DeletePostAT#0" expanded="false" />
+            <element signature="n#!!block;n#SavePhotoSuccess#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

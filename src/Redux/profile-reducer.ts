@@ -9,48 +9,81 @@ const DELETE_POST = 'DELETE_POST';
 const SAVE_PHOTO_SUCCESS = 'SAVE_PHOTO_SUCCESS'
 
 
+type PostArrType = {
+    text: string,
+    name: string,
+    like: number,
+    id: number
+}
+type ContactsType = {
+    github: string,
+    vk: string,
+    facebook: string,
+    instagram: string,
+    twitter: string,
+    website: string,
+    youtube: string,
+    mainLink: string,
+}
+type PhotosType =  {
+    small: string | null,
+    large: string | null,
+}
+
+type ProfileType = {
+    userId: number,
+    lookingForAJob: boolean,
+    lookingForAJobDescription: string,
+    fullName: string,
+    aboutMe: string,
+    contacts: ContactsType
+    photos: PhotosType
+}
+
 let initialState = {
     PostArr: [
         {
             text: "React (иногда React.js или ReactJS) — JavaScript-библиотека с открытым исходным кодом для разработки пользовательских интерфейсов.",
             name: "Иванов Иван",
-            like: "1",
-            id: "1"
+            like: 1,
+            id: 1
         }, {
             text: "React разрабатывается и поддерживается Facebook, Instagram и сообществом отдельных разработчиков и корпораций.",
             name: "Петр Петрович",
-            like: "2",
-            id: "2"
+            like: 2,
+            id: 2
         }, {
             text: "React может использоваться для разработки одностраничных и мобильных приложений.",
             name: "Олег Юрьевич",
-            like: "10",
-            id: "3"
+            like: 10,
+            id: 3
         }, {
             text: "Его цель — предоставить высокую скорость, простоту и масштабируемость.",
             name: "Дядька Черномор",
-            like: "3",
-            id: "4"
+            like: 11,
+            id: 50
         }, {
             text: "В качестве библиотеки для разработки пользовательских интерфейсов React часто используется с другими библиотеками, такими как Redux.",
             name: "Василий Шустрый",
-            like: "15",
-            id: "5"
+            like: 6,
+            id: 5
         }, {
             text: "А это ещё одно сообщение.",
             name: "Конь Буденый",
-            like: "40",
-            id: "6"
+            like: 40,
+            id: 6
         }
-    ],
+    ]as Array<PostArrType>,
     newPostText: "Samurai",
-    profile: null,
-    status: ""
-
+    profile: null as ProfileType | null,
+    status: "",
 }
 
+export type InitialStateType = typeof initialState
 
-const profileReducer = (state = initialState, action) => {
+
+
+const profileReducer = (state = initialState, action: any): InitialStateType => {
     switch (action.type) {
         case ADD_POST: {
 
@@ -64,7 +97,7 @@ const profileReducer = (state = initialState, action) => {
 
             return {
                 ...state,
-                PostArr: [...state.PostArr, newPost],
+                PostArr: [...state.PostArr, newPost] as Array<PostArrType>,
                 newPostText: ''
             }
         }
@@ -94,7 +127,7 @@ const profileReducer = (state = initialState, action) => {
 
         case SAVE_PHOTO_SUCCESS: {
             return {
-                ...state, profile: {...state.profile, photos: action}
+                ...state, profile: {...state.profile, photos: action} as ProfileType
 
 
             }
@@ -109,22 +142,36 @@ const profileReducer = (state = initialState, action) => {
 }
 
 
+type AddPostActionCreaterActionType = {
+    type: typeof ADD_POST,
+    newPostText: string
+}
 
-export const addPostActionCreater = (newPostText) => ({type: ADD_POST, newPostText})
+type SetUserProfileActionType = {
+    type: typeof SET_USER_PROFILE,
+    profile: ProfileType
+}
 
-export const setUserProfile = (profile) => ({type: SET_USER_PROFILE, profile})
+export const addPostActionCreater = (newPostText: string): AddPostActionCreaterActionType => ({type: ADD_POST, newPostText})
 
-export const getUserProfile = (userId) => async (dispatch) => {
+export const setUserProfile = (profile: ProfileType): SetUserProfileActionType => ({type: SET_USER_PROFILE, profile})
+
+
+
+
+
+
+export const getUserProfile = (userId: number) => async (dispatch: any) => {
     let response = await profileAPI.getProfile(userId)
     dispatch(setUserProfile(response.data))
 }
 
-export const getStatus = (userId) => async (dispatch) => {
+export const getStatus = (userId: number) => async (dispatch:any) => {
     let response = await  profileAPI.getStatus(userId)
     dispatch(setStatus(response.data))
 }
 
-export const updateStatus = (status) => async (dispatch) => {
+export const updateStatus = (status: string) => async (dispatch: any) => {
         let response = await profileAPI.updateStatus(status)
 
         if (response.data.resultCode === 0) {
@@ -134,7 +181,7 @@ export const updateStatus = (status) => async (dispatch) => {
 
 }
 
-export const savePhoto = (file) => async (dispatch) => {
+export const savePhoto = (file: any) => async (dispatch: any) => {
     let response = await profileAPI.savePhoto(file)
     if (response.data.resultCode === 0) {
         dispatch(savePhotoSuccess(response.data.photos))
@@ -142,7 +189,7 @@ export const savePhoto = (file) => async (dispatch) => {
     }
 }
 
-export const saveProfile = (profile) => async (dispatch, getState) => {
+export const saveProfile = (profile: ProfileType) => async (dispatch: any, getState: any) => {
     const userId = getState().auth.userId
     const response = await profileAPI.saveProfile(profile)
     if (response.data.resultCode === 0) {
@@ -154,12 +201,24 @@ export const saveProfile = (profile) => async (dispatch, getState) => {
 }
 
 
-export const setStatus = (status) => ({type: SET_STATUS, status})
 
 
-export const deletePost = (id) => ({type: DELETE_POST, id})
 
-export const savePhotoSuccess = (photos) => ({type: SAVE_PHOTO_SUCCESS, photos})
+type SetStatusAT = {
+    type: typeof SET_STATUS,
+    status: string
+}
+export const setStatus = (status: string): SetStatusAT => ({type: SET_STATUS, status})
+type DeletePostAT = {
+    type: typeof DELETE_POST,
+    id: number
+}
+export const deletePost = (id: number): DeletePostAT => ({type: DELETE_POST, id})
+type SavePhotoSuccess = {
+    type: typeof SAVE_PHOTO_SUCCESS,
+    photos: PhotosType
+}
+export const savePhotoSuccess = (photos: PhotosType): SavePhotoSuccess => ({type: SAVE_PHOTO_SUCCESS, photos})
 
 
 export default profileReducer;
